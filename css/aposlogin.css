@@ -1,0 +1,271 @@
+
+body {
+    background-color: #f5f0ff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: #240F31;
+}
+
+header {
+    background-color: #240F31;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px; 
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .logo {
+    height: 150px;
+    margin-right: 200px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.nav-link i {
+    margin-right: 8px; 
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #8d19fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+#hero {
+    background-image: url('../img/hero.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 108vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #a78bfc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hero-content .btn:hover {
+    background: #8d19fa;
+}
+
+#cadastro {
+    padding: 50px 20px;
+    background-color: #f5f0ff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#cxprincipal {
+    width: 1000px;
+    margin: auto;
+    background-color: #ffff; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+#cxamigo, #cxcomercio, #cxusuario, #cxconsultaamigo, #cxconsultacomercio, #cxconsultauser {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cxamigo img, #cxcomercio img, #cxusuario img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+#sobre-nos, #recursos, #seguranca, #suporte {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e6d7ff; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+#sobre-nos h2, #recursos h2, #seguranca h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #240F31; 
+}
+
+#sobre-nos p, #seguranca p {
+    font-size: 18px;
+}
+
+#recursos ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#recursos li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#rodape {
+    padding: 20px;
+    text-align: center;
+    background-color: #240F31;
+    color: #ffffff; 
+}
+
+#rodape nav {
+    margin: 10px 0;
+}
+
+#rodape nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#rodape nav a:hover {
+    text-decoration: underline;
+}
+
+
+#consulta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+#consulta > div {
+    flex: 1;
+    max-width: 300px;
+}
+
+
+.cadastro-item {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
+}
+
+#sobre-nos, #recursos, #seguranca {
+    background-color: #e6d7ff; 
+    border: 1px solid #bc7afa;
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 2px solid #a78bfc; 
+}
+
+
+h2 {
+    font-size: 28px; 
+    margin-bottom: 10px;
+    color: #32025c; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+.cadastro-item img, .consulta-item img {
+    max-width: 300px; 
+    max-height: 200px; 
+    width: auto;       
+    height: auto;   
+    object-fit: cover; 
+    border-radius: 10px; 
+}

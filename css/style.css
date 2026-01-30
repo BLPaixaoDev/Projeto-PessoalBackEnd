@@ -1,0 +1,135 @@
+body {
+    background-color: #f5f0ff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header#cabecalho {
+    background-color: #210130;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header#cabecalho nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header#cabecalho nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header#cabecalho nav ul li a {
+    color: #fff;
+    text-decoration: underline;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+header#cabecalho nav ul li a:hover {
+    background: #946dff;
+    color: #fff;
+    text-decoration: none;
+}
+
+section#cxprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#cxcadeado {
+    text-align: center;
+}
+
+#cxcadeado img {
+    width: 158px;
+    height: 170px;
+    object-fit: cover;
+}
+
+figure#cxcadeado {
+    margin-bottom: 20px;
+}
+
+header#cxlogin {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+header#cxlogin h1 {
+    margin-bottom: 20px;
+    color: #210130;
+}
+
+header#cxlogin label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+header#cxlogin input[type="email"],
+header#cxlogin input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+header#cxlogin input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #210130;
+    cursor: pointer;
+}
+
+header#cxlogin input[type="submit"]:hover {
+    background-color: #946dff;
+}
+
+header#cxlogin a {
+    color: #000000;
+}
+
+header#cxlogin a:hover {
+    color: #946dff;
+}
+
+footer {
+    background: #210130;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.5;
+}

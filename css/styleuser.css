@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 300px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #210130;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #d3b8ea;
+}
+
+.container {
+    margin: 0 auto;
+    width: auto;
+}
+
+section {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="e-mail"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="e-mail"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #210130;
+    box-shadow: 0 0 5px rgba(111, 66, 193, 0.5);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #210130;
+}
+
+header {
+    background-color: #210130;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: underline;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #d3b8ea;
+    color: #fff;
+    text-decoration: none; 
+}
+
+section {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+form h1 {
+    margin-bottom: 10px;
+}
+
+form p {
+    margin-top: 10px;
+}
+
+footer {
+    background: #210130;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.5;
+}

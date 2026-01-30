@@ -1,0 +1,199 @@
+body {
+    background-color: #f5f0ff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #240F31;
+    padding: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .logo {
+    height: 150px;
+    margin-right: 200px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link i {
+    margin-right: 8px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-image: url('../img/hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 108vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #bc7afa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hero-content .btn:hover {
+    background: #8d19fa;
+}
+
+#cadastro {
+    padding: 50px 20px;
+    background-color: #f5f0ff;
+}
+
+#cxprincipal {
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+#cxamigo, #cxcomercio, #cxusuario, #cxconsultaamigo, #cxconsultacomercio, #cxconsultauser {
+    background-color: #f8f3ff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+#cxamigo img, #cxcomercio img, #cxusuario img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+#sobre-nos, #recursos, #seguranca, #suporte {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f3ff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+#sobre-nos h2, #recursos h2, #seguranca h2, #suporte h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#sobre-nos p, #seguranca p {
+    font-size: 18px;
+}
+
+#recursos ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#recursos li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#rodape {
+    padding: 20px;
+    text-align: center;
+    background-color: #240F31;
+    color: #ffffff;
+}
+
+#rodape nav {
+    margin: 10px 0;
+}
+
+#rodape nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#rodape nav a:hover {
+    text-decoration: underline;
+}
+
+#sobre-nos, #recursos, #seguranca {
+    background-color: #e6d7ff; 
+    border: 1px solid #bc7afa;
+}
+#sobre-nos, #recursos, #seguranca, #suporte {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e6d7ff; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
